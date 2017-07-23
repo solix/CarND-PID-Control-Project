@@ -38,5 +38,30 @@ double PID::TotalError() {
 	return Kp*p_error+Ki*i_error+Kd*d_error;
 }
 
+// void Twiddle(double cte,double Kp,double Ki,double Kd){
+// 	vector dp={1,1,1};
+// 	vector p={p_error,i_error,d_error};
+// 	double best_error = cte;
+// 	double threshold = 0.001;
 
+// 	while(best_error>threshold){
+// 		for(int i = 0; i < p.size(); i++){
+// 			p[i]+=dp[i];
+// 			UpdateError(cte);
+// 			if(best_error<cte){
+// 				best_error = cte;
+// 				dp[i]*=1.1;
+
+// 			}else{
+// 				p[i] -=2*dp[i];
+// 				UpdateError(cte);
+
+// 				if()
+// 			}
+// 		}
+
+// 	}
+
+
+// }
 
