@@ -65,7 +65,6 @@ int main(int argc, char* argv[])
 
 
            pid.UpdateError(cte);
-           double error=0;         
            steer_value = pid.TotalError();
           
 
