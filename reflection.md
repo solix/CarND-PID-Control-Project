@@ -21,9 +21,8 @@ This Controller is useful when there are some environmental forces such as hard 
 
 *Visual aids i.e. record of a small video of the car in the simulator 
 
- 
-![inline video](http://g.recordit.co/89jbEDbiAT.gif "final")
-[problem viewing file? click here](http://g.recordit.co/89jbEDbiAT.gif)
+[video here](http://g.recordit.co/89jbEDbiAT.gif)
+
 ### Hyperparameters (P, I, D coefficients)
 
 
